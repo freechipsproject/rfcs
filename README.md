@@ -1,15 +1,27 @@
-# Chisel RFCs - [Active RFC List](https://rfcbot.rs/)
+# Chisel/Firrtl RFCs
 
-[Chisel RFCs]: #chisel-rfcs
-
-This site is to track substantive changed to [Chisel](https://chisel-lang.org) and its
+This site is to track substantive changed to [Chisel-lang](https://chisel-lang.org) and its
 many supporting projects.
+
+Chisel-lang comprises Chisel3 and the following related projects
+
+- firrtl
+- rocket-chip
+- chisel-bootcamp
+- chisel-template
+- chisel-testers2
+- treadle
+- firrtl-interpreter
+- firrtl-diagrammer
+- dsp-tools
+
+and a growing number of related projects and libraries
 
 Many changes, including bug fixes and documentation improvements can be
 implemented and reviewed via the normal GitHub pull request workflow.
 
 Some changes though are "substantial", and we ask that these be put through a
-bit of a design process and produce a consensus among the Chisel community.
+bit of a design process and produce a consensus among the Chisel-lang community.
 
 The "RFC" (request for comments) process is intended to provide a consistent
 and controlled path for new features to enter the language and standard
@@ -36,16 +48,16 @@ language is evolving in.
 [When you need to follow this process]: #when-you-need-to-follow-this-process
 
 You need to follow this process if you intend to make "substantial" changes to
-Chisel, Cargo, Crates.io, or the RFC process itself. What constitutes a
+Chisel-lang projects, or the RFC process itself. What constitutes a
 "substantial" change is evolving based on community norms and varies depending
 on what part of the ecosystem you are proposing to change, but may include the
 following.
 
-  - Any semantic or syntactic change to the language that is not a bugfix.
+  - Any semantic or syntactic change to the language that is not a bug fix.
   - Removing language features, including those that are feature-gated.
   - Changes to the interface between the compiler and libraries, including lang
     items and intrinsics.
-  - Additions to `std`.
+  - Additions to `util`s of the Chisel-lang projects.
 
 Some changes do not require an RFC:
 
@@ -76,7 +88,8 @@ beforehand, to ascertain that the RFC may be desirable; having a consistent
 impact on the project requires concerted effort toward consensus-building.
 
 The most common preparations for writing and submitting an RFC include talking
-the idea over on #chisel-internals, discussing the topic on our [developer discussion forum],
+the idea over on chiselers mailing list, discussing the topic on our
+[developer discussion forum],
 and occasionally posting "pre-RFCs" on the developer forum. You may file issues
 on this repo for discussion, but these are not actively looked at by the teams.
 
@@ -88,9 +101,9 @@ indication that the RFC is worth pursuing.
 ## What the process is
 [What the process is]: #what-the-process-is
 
-In short, to get a major feature added to Chisel, one must first get the RFC
+In short, to get a major feature added to Chisel-lang, one must first get the RFC
 merged into the RFC repository as a markdown file. At that point the RFC is
-"active" and may be implemented with the goal of eventual inclusion into Chisel.
+"active" and may be implemented with the goal of eventual inclusion into Chisel-lang.
 
   - Fork the RFC repo [RFC repository]
   - Copy `0000-template.md` to `text/0000-my-feature.md` (where "my-feature" is
@@ -138,7 +151,8 @@ merged into the RFC repository as a markdown file. At that point the RFC is
     in full depth.
   - The FCP lasts ten calendar days, so that it is open for at least 5 business
     days. It is also advertised widely,
-    e.g. in [The Chisel Blog](https://chisel.eecs.berkeley.edu/blog/). This way all
+    e.g. in [The Chisel Blog](https://chisel.eecs.berkeley.edu/blog/) and the
+    [chiselers mailing list](mailto:chiselers@lists.berkeley.edu). This way all
     stakeholders have a chance to lodge any final objections before a decision
     is reached.
   - In most cases, the FCP period is quiet, and the RFC is either merged or
@@ -149,7 +163,7 @@ merged into the RFC repository as a markdown file. At that point the RFC is
 [The RFC life-cycle]: #the-rfc-life-cycle
 
 Once an RFC becomes "active" then authors may implement it and submit the
-feature as a pull request to one of the Chisel repos. Being "active" is not a rubber
+feature as a pull request to one of the Chisel-lang repos. Being "active" is not a rubber
 stamp, and in particular still does not mean the feature will ultimately be
 merged; it does mean that in principle all the major stakeholders have agreed
 to the feature and are amenable to merging it.
@@ -196,9 +210,9 @@ rationale for the decision.
 Some accepted RFCs represent vital features that need to be implemented right
 away. Other accepted RFCs can represent features that can wait until some
 arbitrary developer feels like doing the work. Every accepted RFC has an
-associated issue tracking its implementation in the Chisel repository; thus that
+associated issue tracking its implementation in its Chisel-lang repository; thus that
 associated issue can be assigned a priority via the triage process that the
-team uses for all issues in the Chisel repository.
+team uses for all issues in that Chisel-lang repository.
 
 The author of an RFC is not obligated to implement it. Of course, the RFC
 author (like any other developer) is welcome to post an implementation for
@@ -243,7 +257,7 @@ consensus and community norms, not impose more structure than necessary.
 ## License
 [License]: #license
 
-This repository is currently in the process of being licensed under
+This repository is currently being licensed under
 
 * Apache License, Version 2.0, ([LICENSE](LICENSE) or http://www.apache.org/licenses/LICENSE-2.0)
 
