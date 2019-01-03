@@ -152,7 +152,7 @@ merged into the RFC repository as a markdown file. At that point the RFC is
   - The FCP lasts ten calendar days, so that it is open for at least 5 business
     days. It is also advertised widely,
     e.g. in [The Chisel Blog](https://chisel.eecs.berkeley.edu/blog/) and the
-    [chiselers mailing list](mailto:chiselers@lists.berkeley.edu). This way all
+    [chiseler users mailing list](mailto:chisel-users@googlegroups.com). This way all
     stakeholders have a chance to lodge any final objections before a decision
     is reached.
   - In most cases, the FCP period is quiet, and the RFC is either merged or
