@@ -250,9 +250,12 @@ circumstances. As usual, we are trying to let the process be driven by
 consensus and community norms, not impose more structure than necessary.
 
 
-[developer discussion forum]: http://internals.chisel-lang.org/
-[RFC issue tracker]: https://github.com/freechipsproject/rfcs/issues
-[RFC repository]: http://github.com/freechipsproject/rfcs
+[Developer discussion forum](mailto:chisel-users@googlegroups.com)
+
+[RFC issue tracker](https://github.com/freechipsproject/rfcs/issues)
+
+[RFC repository](http://github.com/freechipsproject/rfcs)
+
 
 ## License
 [License]: #license
