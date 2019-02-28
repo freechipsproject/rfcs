@@ -53,6 +53,10 @@ language is evolving in.
   - Make a Pull Request on this repo
   - Your PR will be reviewed by the relevant sub-project team
   - Your proposal may be "accepted", "rejected", or "postponed"
+    - Accepted: The team has agreed with the change, and implementation can proceed.
+      There is no requirement of specific schedule or allocation of resources
+    - Rejected: The team has rejected the change
+    - Postponed: The team wants to evaluate the RFC at a later date, often so that other work can proceed first
   - Please see [What the process is] for more information
 
 ## When you need to follow this process
