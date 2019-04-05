@@ -33,6 +33,7 @@ language is evolving in.
 
   - [Opening](#chisel-rfcs)
   - [Table of Contents]
+  - [Quick Summary]
   - [When you need to follow this process]
   - [Before creating an RFC]
   - [What the process is]
@@ -43,6 +44,20 @@ language is evolving in.
   - [Help this is all too informal!]
   - [License]
 
+## Quick Summary
+[Quick Summary]: #quick-summary
+
+  - Fork this repo
+  - Copy `0000-template.md` to `text/0000-my-feature.md` (don't assign a number yet)
+  - Fill out the template with your proposed change
+  - Make a Pull Request on this repo
+  - Your PR will be reviewed by the relevant sub-project team
+  - Your proposal may be "accepted", "rejected", or "postponed"
+    - Accepted: The team has agreed with the change, and implementation can proceed.
+      There is no requirement of specific schedule or allocation of resources
+    - Rejected: The team has rejected the change
+    - Postponed: The team wants to evaluate the RFC at a later date, often so that other work can proceed first
+  - Please see [What the process is] for more information
 
 ## When you need to follow this process
 [When you need to follow this process]: #when-you-need-to-follow-this-process
